@@ -14,3 +14,8 @@
 #     print(f"{namevar} is awesome!")
 #     countvar = countvar - 1
 
+countvar = 0
+while countvar < 5:
+    namevar = input("Type name: ")
+    print(namevar, "is awesome!")
+    countvar += 1
