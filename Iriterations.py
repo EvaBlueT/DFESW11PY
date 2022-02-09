@@ -1,9 +1,8 @@
-# count = 0
-# name =str(input("Wat is your name?"))
-# 
-# while count < 5:
-#     print(name, "is awesome")
-#     count += 1
+count = 0 
+while count < 5:
+    name =str(input("Wat is your name?"))
+    print(name, "is awesome")
+    count += 1
 
 # for i in range(14,34,4):
 #     print (i)
@@ -14,8 +13,8 @@
 #     print(f"{namevar} is awesome!")
 #     countvar = countvar - 1
 
-countvar = 0
-while countvar < 5:
-    namevar = input("Type name: ")
-    print(namevar, "is awesome!")
-    countvar += 1
+# countvar = 0
+# while countvar < 5:
+#     namevar = input("Type name: ")
+#     print(namevar, "is awesome!")
+#     countvar += 1
