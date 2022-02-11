@@ -5,3 +5,6 @@ def test_count_zeros():
 
 def test_count_string():
     assert count.count(["a", "a", "a"], "a") == 3
+
+def test_squares():
+    assert count.listofsquares(7) == 49
