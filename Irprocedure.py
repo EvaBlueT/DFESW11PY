@@ -20,7 +20,7 @@ from decimal import ROUND_UP
 
 
 def grade_score(home_score, asses_score, final_exam_score):
-    grade = (home_score + asses_score + final_exam_score)/175*100
+    grade = round((home_score + asses_score + final_exam_score)/175*100)
     return grade
 
 var1 = int(input("Homework score /25: "))
