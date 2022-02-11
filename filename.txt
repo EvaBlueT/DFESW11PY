@@ -1,0 +1,10 @@
+breakfast:
+porridge
+branch:
+apple
+lunch:
+tomatoe soup
+dinner:
+rice with vegetables
+supper:
+glass of wine
