@@ -13,17 +13,17 @@
 # filevar.write(outfile)
 # filevar.close()
         
-file = open("Teams.txt")
-filecontent = file.read()
-print(filecontent)
+file = open("teams.txt", "r")
 
-# for line in range(1,6):
-#     if line == 1:
-#         print(filecontent)
-#     elif line == 4:
-#         print(filecontent)     
+# teamslist = ""
 
+# line1 = file.getline(filecontent,[0])
+# line2 = file.getline()
 
+# for line in range(number_of_lines):
+#     line = file.readline()
+#     print(line)
+        
 
 
 # filecontents =filevar.read()
