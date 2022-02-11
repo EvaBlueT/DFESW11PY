@@ -13,12 +13,15 @@
 # filevar.write(outfile)
 # filevar.close()
         
+
 file = open("teams.txt", "r")
 
-# teamslist = ""
+line = file.readlines()
+print(line[0] + line[3])
 
-# line1 = file.getline(filecontent,[0])
-# line2 = file.getline()
+file.close()
+
+
 
 # for line in range(number_of_lines):
 #     line = file.readline()
