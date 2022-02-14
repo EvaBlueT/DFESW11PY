@@ -11,6 +11,6 @@
 #         d[i]=i*i
 #     return d
 
-number1 = int(input("Enter the whole number: "))
-number2 = float(input("Enter a decimal number: "))
-print(f"This a whole numer: {number1} and this is a decimal number: {number2}")
+
+
+
